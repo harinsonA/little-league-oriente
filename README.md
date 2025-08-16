@@ -68,17 +68,30 @@ Accede al panel de administración en: http://127.0.0.1:8000/admin/
 ## Estructura del Proyecto
 
 - `liga_baseball_admin/`: Configuración principal del proyecto Django
+- `documentacion/`: Documentación técnica y seguimiento del proyecto
 - `manage.py`: Herramienta de línea de comandos de Django
 - `requirements.txt`: Dependencias del proyecto
 - `.venv/`: Entorno virtual (no incluir en control de versiones)
 
+## 📋 Documentación del Proyecto
+
+Para información detallada sobre el estado y planificación del proyecto, consulta la carpeta [`documentacion/`](./documentacion/):
+
+- **[Estado del Proyecto](./documentacion/estado-del-proyecto.md)**: Seguimiento de tareas completadas y pendientes
+- **[Planificación de Sprints](./documentacion/planificacion-sprints.md)**: Cronograma detallado de desarrollo
+- **[Guía de Documentación](./documentacion/README.md)**: Cómo usar y mantener la documentación
+
 ## Estado del Proyecto
 
-- ✅ Configuración inicial de Django
-- ✅ Entorno virtual configurado
-- ✅ Base de datos SQLite configurada
-- ✅ Superusuario creado
-- 🔄 **Próximos pasos**: Desarrollo de modelos y aplicaciones específicas
+- ✅ **Configuración inicial de Django** - Proyecto base funcionando
+- ✅ **Entorno virtual configurado** - Entorno aislado para dependencias
+- ✅ **Base de datos SQLite configurada** - BD de desarrollo lista
+- ✅ **Superusuario creado** - Acceso al panel de administración
+- ✅ **Control de versiones** - Repositorio Git conectado a GitHub
+- ✅ **Documentación inicial** - Sistema de seguimiento implementado
+- 🔄 **Próximos pasos**: Análisis de requerimientos y diseño de modelos
+
+**Progreso general**: 15% completado | **Próximo hito**: Estructura de Datos
 
 ## Contribución
 

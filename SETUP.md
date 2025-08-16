@@ -1,6 +1,7 @@
 # Configuración del Proyecto
 
 ## Variables de Entorno
+
 Para configuración local, crea un archivo `.env` en la raíz del proyecto con:
 
 ```env
@@ -13,6 +14,7 @@ DATABASE_URL=sqlite:///db.sqlite3
 ## Comandos Útiles
 
 ### Desarrollo
+
 ```bash
 # Activar entorno virtual
 .venv\Scripts\activate
@@ -34,6 +36,7 @@ python manage.py test
 ```
 
 ### Git Workflow
+
 ```bash
 # Crear nueva rama
 git checkout -b feature/nueva-funcionalidad
@@ -53,6 +56,7 @@ git push origin main
 ```
 
 ## Estructura de Ramas
+
 - `main`: Rama principal con código estable
 - `develop`: Rama de desarrollo (crear cuando sea necesario)
 - `feature/*`: Ramas para nuevas funcionalidades
